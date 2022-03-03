@@ -37,9 +37,11 @@ h4{
 }
 .container{
   margin: 0 auto;
-  padding: 2rem;
   width: 100%;
   max-width: 800px;
+}
+.meme-form{
+  padding: 2rem;
 }
 .inputs{
   display: flex;
@@ -50,7 +52,7 @@ input:nth-child(1)
   margin-right: 1rem;
 }
 input{
-  flex-grow: 1;
+  width: 50%;
   font-size: 1rem;
   color: #0D0D0D;
 }
@@ -67,4 +69,16 @@ button{
   font-weight: 600;
   font-size: 1.2rem;
   width: 100%;
+  margin-bottom: 2rem;
+}
+.meme{
+  width: 100%;
+}
+@media (max-width: 400px) {
+    h2{
+      font-size: 1rem;
+    }
+    .troll{
+      height: 30px;
+    }
 }
